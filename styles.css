@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+    
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+.logo {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 20px auto;
+}
+
+main {
+    max-width:315px;
+    background: beige;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px 16px;
+
+}
+
+label {
+    color: #0000009f;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+select, input {
+    background-color: #ffffff;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 15px;    
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    color: #555555;
+    cursor: pointer;
+}
+
+button {
+    background: rgba(0, 0, 0, 0.829);
+    border-radius: 5px;
+    padding: 10px;
+    color: wheat;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+button:hover{
+    background-color: rgb(34, 23, 23);
+    transition: 0.2s;
+    opacity: .7;
+}
+
+button:active{
+    background: #000000;
+    opacity: .7;
+    transition: 0.2s;
+}
+
+
+
+section{      
+    color: #000000d7;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;       /* centraliza na horizontal */
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.89);
+    border-radius: 20px;  
+    gap: 1em;                 /* espaço entre cada bloco de moeda */
+
+}
+
+
+.moeda {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    
+}
+
+.moeda img {
+    margin-top: 15px;
+    width: 50px;  
+    height: 50px;
+}
+
+.moeda p {
+    margin: 0;         /* remove margens padrão */
+    text-align: center; /* centraliza texto */
+}
+
+.currency {
+    font-size: 700;
+    color:  #888888 ;
+}
+
+.currency-value {
+    font-weight: bold;
+    color: #000000;
+}
