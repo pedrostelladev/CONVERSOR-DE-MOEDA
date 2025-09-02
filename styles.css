@@ -110,7 +110,7 @@ section{
     color:  #888888 ;
 }
 
-.currency-value {
+.currency-value-to-convert .currency-value-converted {
     font-weight: bold;
     color: #000000;
 }
