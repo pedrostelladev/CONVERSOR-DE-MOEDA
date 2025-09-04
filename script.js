@@ -31,7 +31,7 @@ currencyValueToConvert.innerHTML = new Intl.NumberFormat('pt-BR', {
 
 }
 
-function changeCurrency()   {
+function changeCurrency(){
    const currencyName = document.getElementById('eua')
    const currencyImage = document.querySelector('.bandeira')
 
@@ -46,7 +46,6 @@ if(currencySelect.value == 'Euro') {
 }
     
 convertValues()
-
 }
 
 currencySelect.addEventListener('change', changeCurrency)
